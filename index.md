@@ -84,6 +84,28 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Starter Project: Calculator
 
+## Summary
+I chose the calculator for my starter project because I wanted something that I will actually use and have an everyday use for. The way it works is that there is the integrated circuit, or IC, which performs all the calculations. The IC receives the input from the buttons when the buttons are pushed because the button closes the switch, which connects the circuit providing voltage to the IC. When the buttons are in their unpushed position, the switch is open so there is no current between the battery and the IC, but when the button is pushed, it closes the switch onto the circuit which connects a current with voltage to the IC. The IC then displays the number then finished calculation on the seven segment display. The assembly process was pretty simple, the majority of the building process was soldering.
+
+## Components Used
+
+- Monolithic Capacitor
+- CR2032 Battery
+- CR2032 Battery Socket
+- Black-Yellow Button
+- White Button Cap
+- Transparent Button Cap
+- Micro USB Socket
+- 3Bit Digital Tube
+- STC15W408AS Controller
+- IC Socket
+- Button Labels
+- Acrylic Board
+- M2*2*+3mm Copper Pillar Screw
+- M2*20mm Screw
+- M2*4mm Screw
+- M2 Nut
+- PCB Circuit Board
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
