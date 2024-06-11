@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Braeden P | Sacred Heart Prep | Electrical Engineering | Rising Sophmore
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -106,6 +106,10 @@ I chose the calculator for my starter project because I wanted something that I 
 - M2*4mm Screw
 - M2 Nut
 - PCB Circuit Board
+
+## Challenges
+
+Some challenges I faced were soldering and putting the case on. Soldering was somewhat challenging due to the fact that the majority of the project was soldering and some parts were small which made it harder to be precise while keeping the project clean. Another challenge I faced was the case. In the beginning of putting the case on, the battery didn’t fully fit into the slot and the charger didn’t fit into the slot for the charger.
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
