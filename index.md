@@ -87,8 +87,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 ## Summary
 I chose the calculator for my starter project because I wanted something that I will actually use and have an everyday use for. The way it works is that there is the integrated circuit, or IC, which performs all the calculations. The IC receives the input from the buttons when the buttons are pushed because the button closes the switch, which connects the circuit providing voltage to the IC. When the buttons are in their unpushed position, the switch is open so there is no current between the battery and the IC, but when the button is pushed, it closes the switch onto the circuit which connects a current with voltage to the IC. The IC then displays the number then finished calculation on the seven segment display. The assembly process was pretty simple, the majority of the building process was soldering.
-https://www.researchgate.net/profile/Chidubem-Chukwujindu/publication/332410814/figure/fig2/AS:747669823700993@1555269785621/A-lightbulb-with-the-switch-open-and-closed-2-above-shows-an-example-of-a-basic.ppm
-![Headstone Image](A-lightbulb-with-the-switch-open-and-closed-2-above-shows-an-example-of-a-basic (2).ppm)
+![switches](A-lightbulb-with-the-switch-open-and-closed-2-above-shows-an-example-of-a-basic (2).ppm)
 Research Gate
 
 ## Components Used
