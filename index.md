@@ -85,7 +85,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Starter Project: Calculator
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lc4bP4zvc5Q?si=o-6FkkPM0eynmOZC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
 ## Summary
 I chose the calculator for my starter project because I wanted something that I will actually use and have an everyday use for. The way it works is that there is the integrated circuit, or IC, which performs all the calculations. The IC receives the input from the buttons when the buttons are pushed because the button closes a switch, which connects the circuit providing voltage to the IC. When the buttons are in their unpushed position, the switch is open so there is no current between the battery and the IC, but when the button is pushed, it closes the switch onto the circuit which connects a current with voltage to the IC. A switch is an electrical component that disrupts the current in a wire. The IC then displays the number then finished calculation on the seven segment display. The assembly process was pretty simple, the majority of the building process was soldering.
 <img width="691" alt="Screenshot 2024-06-11 at 3 50 14 PM" src="https://github.com/braedenlp/Braeden_BSE_Portfolio/assets/172335639/1ac4e1e3-bdfa-4387-98d2-d1727618aba6">
