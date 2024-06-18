@@ -46,6 +46,7 @@ For your second milestone, explain what you've worked on since your previous mil
 ## What My Project is
 
 My project is a mini hoop that has sensors in the hoop that will detect when a ball goes through the hoop which then makes the score on the scoreboard go up by two. It also has a button that starts a new game and resets the score. The progress I have made in this first milestone is that I got all of the hardware connected. I put together the entire hoop, soldered everything, and connected all the wires.
+
 ![hardware](IMG_8263.HEIC)
 
 Figure 1: The figure above is a picture of my project built and wired.
