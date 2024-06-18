@@ -49,7 +49,7 @@ My project is a mini hoop with a scoreboard. It has sensors in the hoop that wil
 
 ![hardware](Untitled presentation (1).jpg)
 
-Figure 1: The figure above is a picture of my project built and wired.
+Figure 1: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
 ## Challenges
 
 Challenges that I faced in this process is that I altered multiple mechanical aspects of my project for it to work. I used a dremel to sand down the acrylic covering of the matrix board because it was too big. The legs of the hoop were too small so I reprinted them. The wires kept snapping off of my circuit boards so I either soldered solid core wires onto them or tinned them. On top of all that, the matrix board that I have right now is broken so we have to get a new one. What came with this was a lot of debugging that happened because I initially thought that something was wrong with my circuit board. I ended up using a different, bigger, matrix board that was proven to work to hook everything up.
