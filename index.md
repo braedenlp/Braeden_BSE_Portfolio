@@ -50,7 +50,6 @@ My project is a mini hoop with a scoreboard. It has sensors in the hoop that wil
 ![hardware](Untitled presentation (2).jpg)
 
 Figure 1: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
-
 ![schematic](led_matrices_circuit-diagram.jpg)
 
 Figure 2: The figure above is a schematic of all the wiring that I did.
