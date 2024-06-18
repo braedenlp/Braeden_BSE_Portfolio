@@ -47,7 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 My project is a mini hoop with a scoreboard. It has sensors in the hoop that will detect when a ball goes through. The hoop will then make the score on the scoreboard go up by two just like basketball. It also has a button that starts a new game and resets the score.This milestone was mainly hardware, I put together the entire hoop and connected all the wires. I also soldered all of my parts together. Some things that I soldered were all the wires to the pins on the feather express and featherwing and the wires connecting to the button. Every time a wire snapped I soldered a solid core wire onto the tip of it or I tinned it. There were also connectors that I soldered onto the featherwing and feather express so that the feather express could rest on top of the featherwing. 
 
-![hardware](IMG_8263.HEIC)
+![hardware](Untitled presentation (1).jpg)
 
 Figure 1: The figure above is a picture of my project built and wired.
 ## Challenges
