@@ -47,9 +47,11 @@ For your second milestone, explain what you've worked on since your previous mil
 
 My project is a mini hoop with a scoreboard. It has sensors in the hoop that will detect when a ball goes through. The hoop will then make the score on the scoreboard go up by two just like basketball. It also has a button that starts a new game and resets the score. This milestone was mainly hardware, I put together the entire hoop and connected all the wires. I also soldered all of the parts together. Some things that I soldered were all the wires to the pins on the feather express and featherwing, and the wires connecting to the button. Every time a wire snapped I soldered a solid core wire onto the tip of it or I tinned it. There were also connectors that I soldered onto the featherwing and feather express so that the feather express could rest on top of the featherwing. 
 
-![hardware](Untitled presentation (1).jpg)
+![hardware](Untitled presentation (2).jpg)
 
 Figure 1: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
+
+
 ## Challenges
 
 The main challenge that I faced in building the hoop was the process of altering multiple mechanical aspects of my project for it to work. For instance, I used a dremel to sand down the acrylic covering of the matrix board because it was too big. I also had to reprint the legs of the hoop as they were too small. The biggest annoyance was that the wires kept snapping off of my circuit boards so I either soldered solid core wires onto them or tinned them. On top of all that, the matrix board that I have right now is broken so we have to get a new one. What came with this was a lot of debugging because I initially thought that something was wrong with my circuit board or my wiring. I ended up using a different, bigger, matrix board that was proven to work to hook everything up.
