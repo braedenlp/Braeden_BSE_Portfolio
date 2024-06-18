@@ -46,11 +46,33 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ktwYQZghSSA?si=WxeESJleusiH3-68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## What My Project is
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+
+My project is a mini hoop that has sensors in the hoop that will detect when a ball goes through the hoop which then makes the score on the scoreboard go up by two. It also has a button that starts a new game and resets the score. The progress I have made in this first milestone is that I got all of the hardware connected. I put together the entire hoop, soldered everything, and connected all the wires.
+
+## Challenges
+
+Challenges that I faced in this process is that I had to change multiple aspects of my project. I had to change the size of the acrylic covering the matrix board because it was too big, the legs of the hoop were too small so I had to reprint those, and the wires kept snapping off of my circuit boards. I also had to change my milestones because the hardware aspect of this project took so long. On top of all that the matrix board that I originally had was broken so we have to get a new one but I initially thought that something was wrong with my circuit board.
+
+## Components Used
+
+- Adafruit Feather M4 Express
+- Adafruit RGB Matrix Featherwing Kit
+- 64x32 RGB LED Matrix - 4mm pitch
+- Adafruit STEMMA Speaker
+- Mini LED Arcade Button - 24mm Translucent Clear
+- IR Break Beam Sensor with Premium Wire Header Ends - 5mm LEDs
+- JST PH 2-Pin Cable - Female Connector 100mm
+- JST PH 2-Pin Cable – Male Header 200mm
+- JST PH 2mm 3-Pin Socket to Color Coded Cable - 200mm
+- STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm
+- Silicone Cover Stranded-Core Ribbon Cable - 10 Wire 1 Meter Long
+- Header Kit for Feather - 12-pin and 16-pin Female Header Set
+- Black Nylon Machine Screw and Stand-off Set – M2.5 Thread
+- 5V 4A (4000mA) switching power supply
+
+## What's Next?
+
+The next step I want to take in my project is to get all of my software working. This is getting my sensors working, the button, and the speaker all to work. None of this is working right now and it very frustrating so I hope to figure all of this out.
 <!--
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
