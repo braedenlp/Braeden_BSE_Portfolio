@@ -48,6 +48,7 @@ For your second milestone, explain what you've worked on since your previous mil
 My project is a mini hoop that has sensors in the hoop that will detect when a ball goes through the hoop which then makes the score on the scoreboard go up by two. It also has a button that starts a new game and resets the score. The progress I have made in this first milestone is that I got all of the hardware connected. I put together the entire hoop, soldered everything, and connected all the wires.
 ![hardware](IMG_8263.HEIC)
 
+Figure 1: The figure above is a picture of my project built and wired.
 ## Challenges
 
 Challenges that I faced in this process is that I had to change multiple aspects of my project. I had to use a dremel to sand down the acrylic covering the matrix board because it was too big, the legs of the hoop were too small so I had to reprint those, and the wires kept snapping off of my circuit boards. I also had to change my milestones because the hardware aspect of this project took so long. On top of all that the matrix board that I originally had was broken so we have to get a new one but I initially thought that something was wrong with my circuit board. I ended up using a different, bigger, matrix board that was proven to work to hoop everything up.
