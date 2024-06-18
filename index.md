@@ -49,7 +49,8 @@ My project is a mini hoop that has sensors in the hoop that will detect when a b
 
 ## Challenges
 
-Challenges that I faced in this process is that I had to change multiple aspects of my project. I had to change the size of the acrylic covering the matrix board because it was too big, the legs of the hoop were too small so I had to reprint those, and the wires kept snapping off of my circuit boards. I also had to change my milestones because the hardware aspect of this project took so long. On top of all that the matrix board that I originally had was broken so we have to get a new one but I initially thought that something was wrong with my circuit board.
+Challenges that I faced in this process is that I had to change multiple aspects of my project. I had to use a dremel to sand down the acrylic covering the matrix board because it was too big, the legs of the hoop were too small so I had to reprint those, and the wires kept snapping off of my circuit boards. I also had to change my milestones because the hardware aspect of this project took so long. On top of all that the matrix board that I originally had was broken so we have to get a new one but I initially thought that something was wrong with my circuit board. I ended up using a different, bigger, matrix board that was proven to work to hoop everything up.
+
 
 ## Components Used
 
