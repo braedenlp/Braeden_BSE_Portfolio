@@ -51,7 +51,11 @@ My project is a mini hoop with a scoreboard. It has sensors in the hoop that wil
 
 Figure 1: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
 
+![schematic](led_matrices_circuit-diagram.jpg)
 
+Figure 2: The figure above is a schematic of all the wiring that I did.
+
+Figure Reference: Adafruit
 ## Challenges
 
 The main challenge that I faced in building the hoop was the process of altering multiple mechanical aspects of my project for it to work. For instance, I used a dremel to sand down the acrylic covering of the matrix board because it was too big. I also had to reprint the legs of the hoop as they were too small. The biggest annoyance was that the wires kept snapping off of my circuit boards so I either soldered solid core wires onto them or tinned them. On top of all that, the matrix board that I have right now is broken so we have to get a new one. What came with this was a lot of debugging because I initially thought that something was wrong with my circuit board or my wiring. I ended up using a different, bigger, matrix board that was proven to work to hook everything up.
