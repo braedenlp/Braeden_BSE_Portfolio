@@ -25,20 +25,21 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+-->
 
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UzoG46Dgx08?si=HmRxoATlQNrEgput" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Summary
+Since my first milestone, I have worked on the software aspect of my project. There was a sample code that the developers of the project provided that I used, but some of the code didn’t work. I have been troubleshooting their code and I have made it functional, but there are some aspects that I want to change. For example, I need to change the delay so that the project will properly count the score. The purpose of the delay in this specific project is not to overload the feather with too much input from the sensor. It also controls the sensitivity of the sensor because while the delay is happening, the code isn’t running. So any input that the sensor receives while the code is stopped the feather will ignore. When I put the delay very low, for instance at 0.01, the score would start auto counting and go up eight with just one basket. This would happen because the delay in the code was less than the time it took for the ball to pass through the hoop. But when I put the delay higher, it wouldn’t detect the ball some of the time. This would happen because if the delay is high, the program does a lot of waiting. The state of the sensor isn’t constantly being checked, so if I were to make a basket in that state of waiting, it wouldn’t sense the ball go through. So I have to troubleshoot to find the perfect median between sensitive and not. 
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone-->
+## Challenges
+
+This milestone has been challenging especially since my computer didn’t work with the software halfway through the process. For instance, it would keep giving me error codes saying that it couldn’t read information in a number of the files even though my computer worked perfectly with the files earlier in the process. Although, it has gotten easier since my wires aren’t snapping anymore. It eventually got to the point where every wire was either tinned or had a more sturdy solid core wire soldered on the end of it and that fixed that problem entirely.
+
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ktwYQZghSSA?si=WxeESJleusiH3-68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
