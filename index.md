@@ -40,7 +40,7 @@ Since my first milestone, I have worked on the software aspect of my project. Th
 Figure 1: The figure above is a finite state machine of my code.
 ## Challenges
 
-This milestone has been challenging especially since my computer didn’t work with the software halfway through the process. For instance, it would keep giving me error codes saying that it couldn’t read information in a number of the files even though my computer worked perfectly with the files earlier in the process. Although, it has gotten easier since my wires aren’t snapping anymore. It eventually got to the point where every wire was either tinned or had a more sturdy solid core wire soldered on the end of it and that fixed that problem entirely.
+This milestone has been challenging especially since my computer didn’t work with the software halfway through the process. For instance, it would keep giving me error codes saying that it couldn’t read information in a number of the files even though my computer worked perfectly with the files earlier in the process. The other problem I had which was my wires kept snapping still has been a problem throughout this problem. The project is at a point where every wire is either tinned or has a more sturdy solid core wire soldered onto it.
 
 
 # First Milestone
