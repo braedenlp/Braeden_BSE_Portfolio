@@ -42,6 +42,14 @@ Figure 1: The figure above is a finite state machine of my code.
 
 This milestone has been challenging especially since my computer didn’t work with the software halfway through the process. For instance, it would keep giving me error codes saying that it couldn’t read information in a number of the files even though my computer worked perfectly with the files earlier in the process. The other problem I had which was my wires kept snapping still has been a problem throughout this problem. The project is at a point where every wire is either tinned or has a more sturdy solid core wire soldered onto it.
 
+## Software Used
+
+- Circuit Python
+- Mu Editor
+
+## Next Steps
+
+I hope to finish troubleshooting my code by the end of the week so I can start working on modifications.
 
 # First Milestone
 
@@ -81,7 +89,7 @@ The main challenge that I faced in building the hoop was the process of altering
 - Black Nylon Machine Screw and Stand-off Set – M2.5 Thread
 - 5V 4A (4000mA) switching power supply
 
-## What's Next?
+## Next Steps
 
 The next step I want to take in my project is to get all of my software working. This is getting my sensors working, the button, and the speaker all to work. None of this is working right now and it is very frustrating so I hope to figure all of this out.
 
