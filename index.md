@@ -12,13 +12,13 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
-![headshot](Braeden.png)
-
+<iframe src="https://drive.google.com/file/d/1Qb_cBo46hmILoujQ7SBQeim7MhqIJjBN/preview" width="640" height="480" allow="autoplay"></iframe>
+  
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GilUcbJHTUQ?si=prKn_NBWJCFLiVs2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-This milestone finally marks the completion of my project. What I’ve accomplished since my previous milestone is that I calibrated the delay. The delay is read as time.sleep() in python with the delay in the parentheses, and it is situated near the end of my main loop. The sensors now count all baskets made, and the score doesn’t go up by more than two anymore. I did this because initially my sensors were very sensitive because the delay was too fast. Then my sensors weren’t sensitive enough because the delay was too high. I had to find the perfect median for my sensors to have the right kind of sensitivity.
+This milestone finally marks the completion of my project. What I’ve accomplished since my previous milestone is that I calibrated the delay. The delay is read as time.sleep() in Python with the delay in the parentheses, and it is situated near the end of my main loop. The sensors now count all baskets made, and the score doesn’t go up by more than two anymore. I did this because initially my sensors were very sensitive because the delay was too short. Then my sensors weren’t sensitive enough because the delay was too long. I had to find the perfect median for my sensors to have the right kind of sensitivity.
 
 My calibration routine was:
 1. Check the score
@@ -26,7 +26,7 @@ My calibration routine was:
 3. If it didn't sense, decrease delay
 4. Repeat steps 1-3
 
-The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out what was wrong with the code. It was that I had to make a line of code that counted the score into a string. A string is an array of characters and incorporates wide variety of data types. The other triumph was finding the perfect delay in the code to make the sensors the right sensitivity. In the future, I hope to learn more about computers and the ideas behind code.
+The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out what was wrong with the code. It was that I had to make a line of code that counted the score into a string. A string is an array of characters and incorporates a wide variety of data types. The other triumph was finding the perfect delay in the code to make the sensors the right sensitivity. In the future, I hope to learn more about computers and the ideas behind code.
 
 ![diagram](Blank diagram (2).png)
 
