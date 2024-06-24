@@ -25,12 +25,11 @@ My calibration routine was:
 2. If it went up by more than 2, increase delay
 3. If it didn't sense, decrease delay
 4. Repeat steps 1-3
-
-The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out what was wrong with the code. It was that I had to make a line of code that counted the score into a string. A string is an array of characters and incorporates a wide variety of data types. The other triumph was finding the perfect delay in the code to make the sensors the right sensitivity. In the future, I hope to learn more about computers and the ideas behind code.
-
 ![diagram](Blank diagram (2).png)
 
 Figure 1: The figure above shows my calibration routine.
+
+The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out what was wrong with the code. It was that I had to make a line of code that counted the score into a string. A string is an array of characters and incorporates a wide variety of data types. The other triumph was finding the perfect delay in the code to make the sensors the right sensitivity. In the future, I hope to learn more about computers and the ideas behind code.
 
 # Second Milestone
 
