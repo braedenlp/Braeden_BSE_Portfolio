@@ -242,9 +242,20 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Adafruit Feather M4 Express | This part holds all the code | $22.95 | <(https://www.adafruit.com/product/3857)"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Adafruit Feather M4 Express | This part holds all the code | $22.95 | [Link](https://www.adafruit.com/product/3857) |
+| Adafruit RGB Matrix Featherwing Kit | This part controls the RGB matrix board | $7.50 | [Link](https://www.adafruit.com/product/3036) |
+| 64x32 RGB LED Matrix - 4mm pitch | This is the display of the project | $39.95 | [Link](https://www.adafruit.com/product/2278) |
+| Adafruit STEMMA Speaker | This part plays the sound when you make a basket | $5.95 | [Link](https://www.adafruit.com/product/3885) |
+| Mini LED Arcade Button - 24mm Translucent Clear | This part starts and resets games | $2.50 | [Link](https://www.adafruit.com/product/3429) |
+| IR Break Beam Sensor - 5mm LEDs | This part senses if you make a basket | $5.95 | [Link](https://www.adafruit.com/product/2168) |
+| JST PH 2-Pin Cable - Female Connector 100mm | This is a connecter | $0.75 | [Link](https://www.adafruit.com/product/261) |
+| JST PH 2-Pin Cable – Male Header 200mm | This is a connecter | $0.95 | [Link](https://www.adafruit.com/product/3885) |
+| STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | This is a connecter | $1.25 | [Link](https://www.adafruit.com/product/3894) |
+| Silicone Cover Stranded-Core Ribbon Cable - 10 Wire 1 Meter Long | This is a connecter | $3.95 | [Link](https://www.adafruit.com/product/3890) |
+| Header Kit for Feather - 12-pin and 16-pin Female Header Set | This part goes onto the feather to connect it to the featherwing | $0.95 | [Link](https://www.adafruit.com/product/2886) |
+| Black Nylon Machine Screw and Stand-off Set – M2.5 Thread | These are screws to connect things | $16.95 | [Link](https://www.adafruit.com/product/3299) |
+| 5V 4A (4000mA) switching power supply - UL Listed | This is the power supply | $14.95 | [Link](https://www.adafruit.com/product/1466) |
+
 
 # Starter Project: Calculator
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lc4bP4zvc5Q?si=o-6FkkPM0eynmOZC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
