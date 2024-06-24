@@ -76,7 +76,6 @@ The main challenge that I faced in building the hoop was the process of altering
 The next step I want to take in my project is to get all of my software working. This is getting my sensors working, the button, and the speaker all to work. None of this is working right now and it is very frustrating so I hope to figure all of this out.
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 void setup() {
