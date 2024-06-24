@@ -12,8 +12,8 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
-<iframe src="https://drive.google.com/file/d/1Qb_cBo46hmILoujQ7SBQeim7MhqIJjBN/preview" width="640" height="480" allow="autoplay"></iframe>
-  
+![diagram](Braeden.HEIC)
+
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GilUcbJHTUQ?si=prKn_NBWJCFLiVs2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
