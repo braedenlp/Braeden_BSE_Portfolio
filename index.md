@@ -80,13 +80,7 @@ The next step I want to take in my project is to get all of my software working.
 ```c++
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-# SPDX-FileCopyrightText: 2020 Liz Clark for Adafruit Industries
+ # SPDX-FileCopyrightText: 2020 Liz Clark for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
 
@@ -171,6 +165,11 @@ hoops = False
 button_state = False
 beam_state = False
 sample = 0
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
 
 while True:
     #  button debouncing
