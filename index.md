@@ -18,12 +18,19 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GilUcbJHTUQ?si=prKn_NBWJCFLiVs2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+This milestone finally marks the completion of my project. What I’ve accomplished since my previous milestone is that I calibrated the delay. The delay is read as time.sleep() with the delay in the parentheses and it is situated near the end of my main loop. The sensors now count all baskets made and the score doesn’t go up by more than two anymore.
 
+My calibration routine was:
+1. Check the score
+2. If it went up by more than 2 increase delay
+3. If it didn't sense decrease delay
+4. Repeat steps 1-3
+
+The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out this code. The triumph was that I had to make the line of code that counted the score into a string, a string is an array data structure. That and the delay in the code that I changed to make the sensors less sensitive. In the future, I hope to learn more about computers and the ideas behind code.
+
+![diagram](Blank diagram (2).png)
+
+Figure 1: The figure above shows my calibration routine
 
 # Second Milestone
 
@@ -34,7 +41,7 @@ Since my first milestone, I have worked on the software aspect of my project. Th
 
 ![diagram](Blank diagram (1).png)
 
-Figure 1: The figure above is a finite state machine of my code.
+Figure 2: The figure above is a finite state machine of my code.
 
 ## Challenges
 
@@ -54,10 +61,10 @@ My project is a mini hoop with a scoreboard. It has sensors in the hoop that wil
 
 ![hardware](Untitled presentation (2).jpg)
 
-Figure 2: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
+Figure 3: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
 ![schematic](led_matrices_circuit-diagram.jpg)
 
-Figure 3: The figure above is a schematic of all the wiring that I did.
+Figure 4: The figure above is a schematic of all the wiring that I did.
 
 Figure Reference: Adafruit
 ## Challenges
@@ -106,7 +113,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 I chose the calculator for my starter project because I wanted something that I will actually use and have an everyday use for. The way it works is that there is the integrated circuit, or IC, which performs all the calculations. The IC receives the input from the buttons when the buttons are pushed because the button closes a switch, which connects the circuit providing voltage to the IC. When the buttons are in their unpushed position, the switch is open so there is no current between the battery and the IC, but when the button is pushed, it closes the switch onto the circuit which connects a current with voltage to the IC. A switch is an electrical component that disrupts the current in a wire. The IC then displays the number then finished calculation on the seven segment display. The assembly process was pretty simple, the majority of the building process was soldering.
 <img width="691" alt="Screenshot 2024-06-11 at 3 50 14 PM" src="https://github.com/braedenlp/Braeden_BSE_Portfolio/assets/172335639/1ac4e1e3-bdfa-4387-98d2-d1727618aba6">
 
-Figure 4: The figure above shows how switches function on an electrical circuit. The left shows an open switch and the right shows a closed switch, so the left would be an unpushed button and the right would be a pushed button. The difference between the two is that the left is an open circuit and the right is a closed circuit which means that the right can provide current to the light to light it up while the left can not.
+Figure 5: The figure above shows how switches function on an electrical circuit. The left shows an open switch and the right shows a closed switch, so the left would be an unpushed button and the right would be a pushed button. The difference between the two is that the left is an open circuit and the right is a closed circuit which means that the right can provide current to the light to light it up while the left can not.
 
 Figure Reference: Research Gate
 ## Components Used
