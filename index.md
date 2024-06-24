@@ -18,7 +18,15 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GilUcbJHTUQ?si=prKn_NBWJCFLiVs2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-This milestone finally marks the completion of my project. What I’ve accomplished since my previous milestone is that I calibrated the scoring algorithm. Specifically, the sensitivity of the sensors via the delay. The sensor that I use in this project is an IR break beam sensor. The way the sensor works is that the transmitter sensor sends an infrared beam between the two sensors. When that beam is broken, a signal is sent to the board. In Python, the delay is read as time.sleep() with the delay in the parentheses, and it is situated near the end of my main loop. The sensors now count all baskets made, and the score doesn’t go up by more than two anymore. I did this because initially my sensors were very sensitive because the delay was too short. Then my sensors weren’t sensitive enough because the delay was too long. I had to find the perfect median for my sensors to have the right kind of sensitivity.
+This milestone finally marks the completion of my project. What I’ve accomplished since my previous milestone is that I calibrated the scoring algorithm. Specifically, the sensitivity of the sensors via the delay. The sensor that I use in this project is an IR break beam sensor. The way the sensor works is that the transmitter sensor sends an infrared beam between the two sensors. When that beam is broken, a signal is sent to the board. In Python, the delay is read as time.sleep() with the delay in the parentheses, and it is situated near the end of my main loop. 
+
+![diagram](ace_animation_beambreak.gif)
+
+Figure 1: The figure above depicts how a IR break beam sensor works.
+
+Figure Reference: ZDSPB Tech
+
+The sensors now count all baskets made, and the score doesn’t go up by more than two anymore. I did this because initially my sensors were very sensitive because the delay was too short. Then my sensors weren’t sensitive enough because the delay was too long. I had to find the perfect median for my sensors to have the right kind of sensitivity. To find this perfect median, I followed a calibration routine.
 
 My calibration routine was:
 1. Check the score
@@ -27,15 +35,10 @@ My calibration routine was:
 4. Repeat steps 1-3
 ![diagram](Blank diagram (2).png)
 
-Figure 1: The figure above shows my calibration routine.
+Figure 2: The figure above shows my calibration routine.
 
 The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out what was wrong with the code. It was that I had to make a line of code that counted the score into a string. A string is an array of characters and incorporates a wide variety of data types. The other triumph was finding the perfect delay in the code to make the sensors the right sensitivity. In the future, I hope to learn more about computers and the ideas behind code.
 
-![diagram](ace_animation_beambreak.gif)
-
-Figure 2: The figure above depicts how a IR break beam sensor works.
-
-Figure Reference: ZDSPB Tech
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UzoG46Dgx08?si=HmRxoATlQNrEgput" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
