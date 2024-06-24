@@ -35,7 +35,7 @@ The biggest challenge I faced through this process was figuring out the code. It
 
 Figure 2: The figure above depicts how a IR break beam sensor works.
 
-Figure Reference: ZDSPF Tech
+Figure Reference: ZDSPB Tech
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UzoG46Dgx08?si=HmRxoATlQNrEgput" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
