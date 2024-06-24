@@ -75,9 +75,6 @@ The main challenge that I faced in building the hoop was the process of altering
 
 The next step I want to take in my project is to get all of my software working. This is getting my sensors working, the button, and the speaker all to work. None of this is working right now and it is very frustrating so I hope to figure all of this out.
 
-<!-- # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
@@ -90,6 +87,151 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+# SPDX-FileCopyrightText: 2020 Liz Clark for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+import time
+import board
+import audioio
+import audiomp3
+import framebufferio
+import rgbmatrix
+import displayio
+import adafruit_imageload
+import digitalio
+from adafruit_display_shapes.rect import Rect
+from adafruit_bitmap_font import bitmap_font
+from adafruit_display_text import label
+
+#  matrix setup
+displayio.release_displays()
+matrix = rgbmatrix.RGBMatrix(
+    width=64,
+    height=32,
+    bit_depth=4,
+    rgb_pins=[board.D6, board.D5, board.D9, board.D11, board.D10, board.D12],
+    addr_pins=[board.A5, board.A4, board.A3, board.A2],
+    clock_pin=board.D13,
+    latch_pin=board.D0,
+    output_enable_pin=board.D1,
+)
+display = framebufferio.FramebufferDisplay(matrix)
+
+#  display groups
+start_group = displayio.Group()
+score_group = displayio.Group()
+
+#  text & bg color setup for scoreboard
+score_text = "      "
+font = bitmap_font.load_font("/Fixedsys-32.bdf")
+yellow = (255, 215, 0)
+navy = 0x000080
+
+score_text = label.Label(font, text=score_text, color=0x0)
+score_text.x = 23
+score_text.y = 15
+
+score_bg = Rect(0, 0, 64, 32, fill=yellow, outline=navy, stroke=3)
+
+#  start splash screen graphic
+start, start_pal = adafruit_imageload.load("/pixelHoops.bmp",
+                                           bitmap=displayio.Bitmap,
+                                           palette=displayio.Palette)
+
+start_grid = displayio.TileGrid(start, pixel_shader=start_pal,
+                                width=64, height=32)
+#  adding graphics to display groups
+start_group.append(start_grid)
+score_group.append(score_bg)
+score_group.append(score_text)
+
+#  start by showing start splash
+display.root_group = start_group
+
+#  setup for break beam LED pin
+break_beam = digitalio.DigitalInOut(board.A1)
+break_beam.direction = digitalio.Direction.INPUT
+break_beam.pull = digitalio.Pull.UP
+
+#  setup for button pin
+button = digitalio.DigitalInOut(board.D4)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+
+#  setup for speaker pin
+speaker = audioio.AudioOut(board.A0)
+
+#  mp3 decoder setup
+file = "/hoopBloop0.mp3"
+mp3stream = audiomp3.MP3Decoder(open(file, "rb"))
+
+#  state machines used in the loop
+score = 0
+hoops = False
+button_state = False
+beam_state = False
+sample = 0
+
+while True:
+    #  button debouncing
+    if not button.value and not button_state:
+        button_state = True
+    #  debouncing for break beam LED
+    if not break_beam.value and not beam_state:
+        beam_state = True
+    #  if a game hasn't started and you press the button:
+    if not button.value and not hoops:
+        #  game starts
+        hoops = True
+        button_state = False
+        #  display shows scoreboard
+        display.root_group = score_group
+        print("start game!")
+        time.sleep(0.1)
+    if hoops:
+        #  if the break beam LED detects a hoop:
+        if not break_beam.value and beam_state:
+            #  score increase by 2 points
+            print(break_beam.value)
+            print(score)
+            score += 2
+            #  an mp3 plays
+            file = "/hoopBloop{}.mp3".format(sample)
+            mp3stream.file = open(file, "rb")
+            speaker.play(mp3stream)
+            print("score!")
+            #  resets break beam
+            beam_state = False
+            #  increases mp3 file count
+            #  plays the 3 files in order
+            sample = (sample + 1) % 3
+        #  score text x pos if 4 digit score
+        if score >= 1000:
+            score_text.x = -1
+        #  score text x pos if 3 digit score
+        elif score >= 100:
+            score_text.x = 7
+        #  score text x pos if 2 digit score
+        elif score >= 10:
+            score_text.x = 16
+        elif score >= 0:
+            score_text.x = 23
+        #  updates score text to show current score
+        score_text.text = str(score)
+        time.sleep(0.1556486497655)
+    #  if a game is in progress and you press the button:
+    if not button.value and hoops:
+        #  game stops
+        hoops = False
+        button_state = False
+        #  score is reset to 0
+        score = 0
+        score_text.text = str(score)
+        #  display shows the start splash graphic
+        display.root_group = start_group
+        print("end game!")
+        time.sleep(0.5)
 
 }
 ```
@@ -100,10 +242,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
+| Adafruit Feather M4 Express | This part holds all the code | $22.95 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.adafruit.com/product/3857)"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
--->
+
 # Starter Project: Calculator
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lc4bP4zvc5Q?si=o-6FkkPM0eynmOZC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
