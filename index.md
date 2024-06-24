@@ -40,11 +40,6 @@ Figure 1: The figure above is a finite state machine of my code.
 
 This milestone has been challenging especially since my computer didn’t work with the software halfway through the process. For instance, it would keep giving me error codes saying that it couldn’t read information in a number of the files even though my computer worked perfectly with the files earlier in the process. The other problem I had which was my wires kept snapping still has been a problem throughout this problem. The project is at a point where every wire is either tinned or has a more sturdy solid core wire soldered onto it.
 
-## Software Used
-
-- Circuit Python
-- Mu Editor
-
 ## Next Steps
 
 I hope to finish troubleshooting my code by the end of the week so I can start working on modifications.
@@ -68,24 +63,6 @@ Figure Reference: Adafruit
 ## Challenges
 
 The main challenge that I faced in building the hoop was the process of altering multiple mechanical aspects of my project for it to work. For instance, I used a dremel to sand down the acrylic covering of the matrix board because it was too big. I also had to reprint the legs of the hoop as they were too small. The biggest annoyance was that the wires kept snapping off of my circuit boards so I either soldered solid core wires onto them or tinned them. On top of all that, the matrix board that I have right now is broken so we have to get a new one. What came with this was a lot of debugging because I initially thought that something was wrong with my circuit board or my wiring. I ended up using a different, bigger, matrix board that was proven to work to hook everything up.
-
-
-## Components Used
-
-- Adafruit Feather M4 Express
-- Adafruit RGB Matrix Featherwing Kit
-- 64x32 RGB LED Matrix - 4mm pitch
-- Adafruit STEMMA Speaker
-- Mini LED Arcade Button - 24mm Translucent Clear
-- IR Break Beam Sensor with Premium Wire Header Ends - 5mm LEDs
-- JST PH 2-Pin Cable - Female Connector 100mm
-- JST PH 2-Pin Cable – Male Header 200mm
-- JST PH 2mm 3-Pin Socket to Color Coded Cable - 200mm
-- STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm
-- Silicone Cover Stranded-Core Ribbon Cable - 10 Wire 1 Meter Long
-- Header Kit for Feather - 12-pin and 16-pin Female Header Set
-- Black Nylon Machine Screw and Stand-off Set – M2.5 Thread
-- 5V 4A (4000mA) switching power supply
 
 ## Next Steps
 
