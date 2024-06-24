@@ -247,12 +247,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Adafruit STEMMA Speaker | This part plays the sound when you make a basket | $5.95 | [Link](https://www.adafruit.com/product/3885) |
 | Mini LED Arcade Button - 24mm Translucent Clear | This part starts and resets games | $2.50 | [Link](https://www.adafruit.com/product/3429) |
 | IR Break Beam Sensor - 5mm LEDs | This part senses if you make a basket | $5.95 | [Link](https://www.adafruit.com/product/2168) |
-| JST PH 2-Pin Cable - Female Connector 100mm | This is a connecter | $0.75 | [Link](https://www.adafruit.com/product/261) |
-| JST PH 2-Pin Cable – Male Header 200mm | This is a connecter | $0.95 | [Link](https://www.adafruit.com/product/3885) |
-| STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | This is a connecter | $1.25 | [Link](https://www.adafruit.com/product/3894) |
-| Silicone Cover Stranded-Core Ribbon Cable - 10 Wire 1 Meter Long | This is a connecter | $3.95 | [Link](https://www.adafruit.com/product/3890) |
+| JST PH 2-Pin Cable - Female Connector 100mm | This is a connecter wire | $0.75 | [Link](https://www.adafruit.com/product/261) |
+| JST PH 2-Pin Cable – Male Header 200mm | This is a connecter wire | $0.95 | [Link](https://www.adafruit.com/product/3885) |
+| STEMMA JST PH 2mm 3-Pin to Female Socket Cable - 200mm | This is a connecter wire | $1.25 | [Link](https://www.adafruit.com/product/3894) |
+| Silicone Cover Stranded-Core Ribbon Cable - 10 Wire 1 Meter Long | This is a connecter wire | $3.95 | [Link](https://www.adafruit.com/product/3890) |
 | Header Kit for Feather - 12-pin and 16-pin Female Header Set | This part goes onto the feather to connect it to the featherwing | $0.95 | [Link](https://www.adafruit.com/product/2886) |
-| Black Nylon Machine Screw and Stand-off Set – M2.5 Thread | These are screws to connect things | $16.95 | [Link](https://www.adafruit.com/product/3299) |
+| Black Nylon Machine Screw and Stand-off Set – M2.5 Thread | These are screws to connect things onto the board | $16.95 | [Link](https://www.adafruit.com/product/3299) |
 | 5V 4A (4000mA) switching power supply - UL Listed | This is the power supply | $14.95 | [Link](https://www.adafruit.com/product/1466) |
 
 
