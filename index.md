@@ -235,6 +235,7 @@ while True:
 ```
 
 # Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Adafruit Feather M4 Express | This part holds all the code | $22.95 | [Link](https://www.adafruit.com/product/3857) |
