@@ -14,6 +14,10 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 ![headshot](Braeden.png)
 
+![headshot](IMG_8303.HEIC)
+
+![headshot](IMG_8306.HEIC)
+
 # Modifications
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ygbJC4MRoUM?si=fk5c7tnB7xW6t9rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
