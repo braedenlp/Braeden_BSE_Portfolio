@@ -14,9 +14,12 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 ![headshot](Braeden.png)
 
-![headshot](IMG_8303.HEIC)
 
-![headshot](IMG_8306.HEIC)
+![d](IMG_8303.HEIC)
+
+
+![dd](IMG_8306.HEIC)
+
 
 # Modifications
 
