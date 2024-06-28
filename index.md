@@ -22,7 +22,9 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 My vision for this project was to have a sturdy basketball hoop that I could play on with my siblings. It turned out that PLA plastic, a kind used in 3D printers, isn’t the most sturdy material to build a basketball hoop out of. I started thinking about what modifications I could do that would make the hoop more sturdy and playable while keeping all the main elements of the initial project functional. The idea that I came up with was putting it onto the back of a retail mini basketball hoop. I chose this because the retail hoop was already equipped to be shot on and to be dunked on. I then went into Tinkercad to design a 3D model that could attach onto the sides of the backboard and onto the RGB Matrix board. I came up with this model.
 
+![diagram](Screenshot.png)
 
+Figure 1: The figure above is my 3D model for my modifications.
 
 Each piece took about five hours to print.When they came out, some holes didn’t fully match up with what I needed, so I drilled some new holes and that fixed that problem. Putting it together was relatively simple. I threaded the IR sensor wires, that detect when a shot has been made, through the loops meant for the net and zip-tied them to the hoop. I then took out one of the bolts holding the hoop to the backboard and threaded the IR sensor wires through that hole. I also created a mounting place for the button so it could sit there comfortably.
 
@@ -42,7 +44,7 @@ This milestone finally marks the completion of my project. What I’ve accomplis
 
 ![diagram](ace_animation_beambreak.gif)
 
-Figure 1: The figure above depicts how a IR break beam sensor works.
+Figure 2: The figure above depicts how a IR break beam sensor works.
 
 Figure Reference: ZDSPB Tech
 
@@ -55,7 +57,7 @@ My calibration routine was:
 4. Repeat steps 1-3
 ![diagram](Blank diagram (2).png)
 
-Figure 2: The figure above shows my calibration routine.
+Figure 3: The figure above shows my calibration routine.
 
 The biggest challenge I faced through this process was figuring out the code. It was very confusing to figure out what was wrong with the code because the developers of the project used the given code and it worked for them but not for me. My biggest triumph was figuring out what was wrong with the code. It was that I had to make a line of code that counted the score into a string. A string is an array of characters and incorporates a wide variety of data types. The other triumph was finding the perfect delay in the code to make the sensors the right sensitivity. In the future, I hope to learn more about computers and the ideas behind code.
 
@@ -68,7 +70,7 @@ Since my first milestone, I have worked on the software aspect of my project. Th
 
 ![diagram](Blank diagram (1).png)
 
-Figure 3: The figure above is a finite state machine representation of my code.
+Figure 4: The figure above is a finite state machine representation of my code.
 
 ## Challenges
 
@@ -88,10 +90,10 @@ My project is a mini basketball hoop with a RGB matrix scoreboard. It has IR sen
 
 ![hardware](Untitled presentation (2).jpg)
 
-Figure 4: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
+Figure 5: The figure above is a picture of my project built and wired. The arrows point towards the most important parts of the project.
 ![schematic](led_matrices_circuit-diagram.jpg)
 
-Figure 5: The figure above is a schematic of all the wiring that I did.
+Figure 6: The figure above is a schematic of all the wiring that I did.
 
 Figure Reference: Adafruit
 ## Challenges
@@ -289,7 +291,7 @@ while True:
 I chose the calculator for my starter project because I wanted something that I will actually use and have an everyday use for. The way it works is that there is the integrated circuit, or IC, which performs all the calculations. The IC receives the input from the buttons when the buttons are pushed because the button closes a switch which connects the circuit, providing voltage to the IC. When the buttons are in their unpushed position, the switch is open so there is no current between the battery and the IC, but when the button is pushed, it closes the switch onto the circuit which connects a current with voltage to the IC. A switch is an electrical component that disrupts the current in a wire. The IC then displays the number then finished calculation on the seven segment display. The assembly process was pretty simple, the majority of the building process was soldering.
 <img width="691" alt="Screenshot 2024-06-11 at 3 50 14 PM" src="https://github.com/braedenlp/Braeden_BSE_Portfolio/assets/172335639/1ac4e1e3-bdfa-4387-98d2-d1727618aba6">
 
-Figure 6: The figure above shows how switches function on an electrical circuit. The left shows an open switch and the right shows a closed switch, so the left would be an unpushed button and the right would be a pushed button. The difference between the two is that the left is an open circuit and the right is a closed circuit which means that the right can provide current to the light to light it up while the left can not.
+Figure 7: The figure above shows how switches function on an electrical circuit. The left shows an open switch and the right shows a closed switch, so the left would be an unpushed button and the right would be a pushed button. The difference between the two is that the left is an open circuit and the right is a closed circuit which means that the right can provide current to the light to light it up while the left can not.
 
 Figure Reference: Research Gate
 ## Components Used
