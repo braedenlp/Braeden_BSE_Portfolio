@@ -14,6 +14,26 @@ If you have ever played a basketball game at an arcade, this project is a perfec
 
 ![headshot](Braeden.png)
 
+# Modifications
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygbJC4MRoUM?si=fk5c7tnB7xW6t9rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Summary
+
+My vision for this project was to have a sturdy basketball hoop that I could play on with my siblings. It turned out that PLA plastic, a kind used in 3D printers, isn’t the most sturdy material to build a basketball hoop out of. I started thinking about what modifications I could do that would make the hoop more sturdy and playable while keeping all the main elements of the initial project functional. The idea that I came up with was putting it onto the back of a retail mini basketball hoop. I chose this because the retail hoop was already equipped to be shot on and to be dunked on. I then went into Tinkercad to design a 3D model that could attach onto the sides of the backboard and onto the RGB Matrix board. I came up with this model.
+
+
+
+Each piece took about five hours to print.When they came out, some holes didn’t fully match up with what I needed, so I drilled some new holes and that fixed that problem. Putting it together was relatively simple. I threaded the IR sensor wires, that detect when a shot has been made, through the loops meant for the net and zip-tied them to the hoop. I then took out one of the bolts holding the hoop to the backboard and threaded the IR sensor wires through that hole. I also created a mounting place for the button so it could sit there comfortably.
+
+## Challenges
+
+The process to modify my project was somewhat challenging. One challenge I faced was 3D modeling. That was very time consuming; it ended up taking about two hours between the two. The other problem that I faced was that when the parts were printed, some of the holes didn’t overlap on the slots that I needed to put the screws into. I ended up drilling new holes that would fit into the 3D printed parts.
+
+## Conclusion
+
+In the end, I was able to complete the modifications and they hold my RGB Matrix board and button onto the back of the hoop. I’m really happy about my project because of the struggle and triumphs of it all. No success came without its problems and I really appreciate that.
+
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GilUcbJHTUQ?si=prKn_NBWJCFLiVs2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
